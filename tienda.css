@@ -299,7 +299,7 @@ ul,ol{
     text-shadow: inset 0 0 0 0 var(--colorT);
     padding: 0 .25rem;
     margin: 0 -.25rem;
-    transition: color .3s 
+    transition: color .3s
     ease-in-out, text-shadow .3s ease-in-out;
 }
 
