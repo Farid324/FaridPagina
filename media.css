@@ -1,0 +1,125 @@
+/*Large Screen*/
+@media screen and (max-width:1024px)
+{
+    /*Encabezadp*/
+    .ENCABEZADO
+    {
+        margin: 0px;
+        padding: 10px 50px;
+        ustify-content: center;  
+        justify-content: space-between; 
+    }
+    .lOGO
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    .MENUINICIO 
+    {
+        justify-content: space-between;
+        justify-content: center;
+
+
+    }
+    .HOVER1 li
+    { 
+        margin: 0px;
+        padding: 0px 20px;
+    }
+    .HOVER1
+    {
+        padding: 0px 20px;
+    }
+
+    .HOVER1 input
+    {
+        width: 100px;
+    }
+    .HOVER2
+    {
+        padding: 0px;
+        margin: 0px 0px 0px 55px;
+
+    }
+
+    .MAIN
+    {
+        padding: 0px;
+        margin: 0px 100px;
+    }
+    .PCABEZADO
+    {
+        padding: 0px;
+        margin: 0px
+    }
+    .ORDENAMIENTO
+    {
+        display: flex;
+        justify-content: center;  
+        justify-content: space-between;  
+    }
+
+    .ROPA
+    {
+        padding: 40px 50px;
+        flex-direction:column;
+        js
+    }
+    .R1
+    {
+        margin-bottom:60px;
+    }
+
+
+    /*Estaciones*/
+    .PORTADA
+    {
+        margin: 0px;
+        padding: 0px 50px;
+    }
+
+    .PT1
+    {
+        padding: 0px 0px;
+    }
+    .PT1 img
+    {
+        height: 600px;
+        width: auto;
+    }
+
+    .PT2
+    {
+        padding: 0px;
+    }
+    .PT2 img
+    {
+        height: 600px;
+        width: 900px;
+    }
+    .PT3
+    {
+        padding: 0px;
+    }
+    .PT3 img
+    {
+        height: 600px;
+        width: 900px;
+    }
+
+
+
+}
+
+/*Tablet*/
+/* @media screen and (max-width:768px){
+}
+/*Dispositivo movil*/
+/* @media screen and (max-width:425px){
+}
+
+@media screen and (max-width:375px){
+}
+
+@media screen and (max-width:320px){
+} */

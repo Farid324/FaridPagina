@@ -34,36 +34,69 @@ ul,ol{
     padding: 0 !important;
     margin-top: 0 !important;
 }
+.C
+{
+    margin: inherit;
+    padding: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+    width: inherit;
+    height: inherit;
+}
+
 
 .ENCABEZADO
 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 10px 5px;
+    padding: 10px 100px;
     background-color: var(--colorQ);
+    text-align: center;
+    align-items: center;
 }
-
+.LOGO
+{
+    margin: 0px;
+    padding: 0px;
+}
+.ENCA1
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
 .LOGO img
 {
-    width: 160px;
+    width: auto;
+    height: 50px;
     background-color: var();
     align-items: center;
-    margin-left:15px ;
+    margin-left: 0px;
 }
+.MENUINICIO
+{
+    display: flex;
+    padding: 0px 0px;
+    align-items: center;
+}
+
 .MENUINICIO ul
 {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.MENUINICIO
-{
-    display: flex;
-}
+
 .MENUINICIO li
-{
+{ 
     margin-right: 80px;
 }
 
@@ -83,42 +116,28 @@ ul,ol{
     color: var(--colorQ);
     box-shadow: inset 200px 0 0 0 var(--colorC);
 }
-.HOVER2
-{
-    padding: 0px;
-    margin-left: 5px;
-}
-
-.MENUINICIO
-{
-    padding: 10px 0px;
-    margin-left: -400px;
-    align-items: center;
-}
-
-.MENUINICIO input
+.HOVER1 input
 {
     width: 200px;
-    height: 30px;
+    height: 24px;
     text-align:center;
-    border: 0px;
+    border: 2px solid var(--colorP);
     border-radius: 50px;
     font-size: large;
+    margin-right: -70px;
     
 }
 
-.MENUINICIO input
+.HOVER2
 {
-    border: 0px;
-    border-radius:50px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.MENUINICIO img
+.HOVER2 img
 {
-    width: 25px;
-    height: 25px;
-    margin-left: -80px;
-    margin-bottom: -6px;
+    width: auto;
+    height: 30px;
 }
 
 /*MAIN*/
@@ -140,7 +159,7 @@ ul,ol{
 }
 .ORDENAMIENTO li a
 {
-    color:var(--colorC) ;
+    color:var(--colorC);
 }
 .ORDENAMIENTO li a:hover
 {
@@ -153,8 +172,9 @@ ul,ol{
     justify-content:space-around;
     justify-content: space-between;
     justify-content: center;
-    padding: 40px 200px
+    padding: 40px 200px;
 }
+
 .R1 a img
 {
     width: auto;
@@ -167,7 +187,7 @@ ul,ol{
     background-color: var(--colorC);
     margin: 0px 50px;
     position: absolute;
-    top: 770px;
+    top: 760px;
     width: 400px;
     height: 50px;
     border-radius: 0px 0px 50px 50px;
@@ -210,7 +230,7 @@ ul,ol{
     background-color: var(--colorC);
     margin: 0px 50px;
     position: absolute;
-    top: 1186px;
+    top: 1176px;
     width: 450px;
     height: 50px;
     border-radius: 0px 0px 50px 50px;
@@ -235,14 +255,14 @@ ul,ol{
 /*ROPAS DE ESTACIONES*/
 .PORTADA
 {
-    padding:0px;
+    padding:0px 100px;
     margin: 0px;
 }
 
 
 .PT1{
     justify-content: center;
-    padding: 0px 100px
+    padding: 0px 0px
 }
 
 .PT1 img
@@ -314,13 +334,13 @@ ul,ol{
 
 .PT2{
     justify-content: center;
-    padding: 0px 100px;
+    padding: 0px 0px;
 }
 
 .PT2 img
 {
     height:auto;
-    width: 1700px;
+    width: 1500px;
 }
 
 .PORTADALETRAS2 
@@ -383,10 +403,6 @@ ul,ol{
 
 /*PORTALETRAS 3*/
 
-.PT2{
-    justify-content: center;
-    padding: 0px 100px;
-}
 
 .PT2 img
 {
@@ -456,7 +472,7 @@ ul,ol{
 
 .PT3{
     justify-content: center;
-    padding: 0px 100px
+    padding: 0px 0px
 }
 
 .PT3 img
