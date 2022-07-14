@@ -1,12 +1,12 @@
 /*Large Screen*/
-@media screen and (max-width:1024px)
+@media screen and (max-width:1020px)
 {
     /*Encabezadp*/
     .ENCABEZADO
     {
         margin: 0px;
         padding: 10px 50px;
-        ustify-content: center;  
+        justify-content: center;  
         justify-content: space-between; 
     }
     .lOGO
@@ -62,13 +62,45 @@
     .ROPA
     {
         padding: 40px 50px;
-        flex-direction:column;
-        js
+        justify-content: center;
     }
-    .R1
+    .R1 a img
     {
-        margin-bottom:60px;
+        width: auto;
+        height: 340px;
     }
+    .CAPA
+    {
+    top: 500px;
+    width: 226px;
+    height: 40px;
+    text-align: center;
+    }
+    .CAPA a h2
+    {
+        font-size: 30px;
+    }
+    .ZAPAT
+    {
+        padding: 40px 50px
+    }
+    .R2 a img
+    {
+        width: auto;
+        height: 210px;
+    }
+    .CAPA2
+    {
+        top: 795px;
+        width: 315px;
+        height: 40px;
+        text-align: center;
+    }
+    .CAPA2 a h2
+    {
+        font-size: 30px;
+    }
+
 
 
     /*Estaciones*/
@@ -87,6 +119,24 @@
         height: 600px;
         width: auto;
     }
+    .PORTADALETRAS1 
+    {
+    position: absolute;
+    left:100px;
+    top:970px;
+    }
+    .PORTADALETRAS1 h1
+    {
+    font-size: 40px;
+    }
+    .PORTADALETRAS1 p
+    {
+    font-size: 15px;
+    }
+    .PORTADALETRAS1 h2 a
+    {
+    font-size: 20px;
+    }
 
     .PT2
     {
@@ -97,6 +147,24 @@
         height: 600px;
         width: 900px;
     }
+    .PORTADALETRAS2
+    {
+    position: absolute;
+    left:120px;
+    top:1480px;
+    }
+    .PORTADALETRAS2 h1
+    {
+    font-size: 40px;
+    }
+    .PORTADALETRAS2 p
+    {
+    font-size: 15px;
+    }
+    .PORTADALETRAS2 h2 a
+    {
+    font-size: 20px;
+    }
     .PT3
     {
         padding: 0px;
@@ -106,20 +174,103 @@
         height: 600px;
         width: 900px;
     }
+    .PORTADALETRAS3
+    {
+    position: absolute;
+    left:160px;
+    top:2280px;
+    }
+    .PORTADALETRAS3 h1
+    {
+    font-size: 40px;
+    }
+    .PORTADALETRAS3 p
+    {
+    font-size: 15px;
+    }
+    .PORTADALETRAS3 h2 a
+    {
+    font-size: 20px;
+    }
 
 
+    .PORTADALETRAS4
+    {
+    position: absolute;
+    left:560px;
+    top:2980px;
+    }
+    .PORTADALETRAS4 h1
+    {
+    font-size: 40px;
+    }
+    .PORTADALETRAS4 p
+    {
+    font-size: 15px;
+    }
+    .PORTADALETRAS4 h2 a
+    {
+    font-size: 20px;
+    }
+
+    .DECORACION
+    {
+    margin: 20px 50px 0px 50px;
+    }
+
+    /*Pie de pagina*/
+    .PIEP
+    {
+    margin: 20px 50px 0px 50px;
+    padding: 60px 100px 0px 100px;
+    }
+
+    .PI1
+    {
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+    }
+    .PI1 h1
+    {
+        font-size: 20px;
+        margin: 0px 0px 20px 0px;
+    }
+    .PI1 span
+    {
+    margin: 0px 0px 0px 0px;
+    }
+    .PI1 h2
+    {
+        font-size: 20px;
+        margin: 20px 0px 20px 0px;
+    }
+    .REDES
+    {
+        border-radius:20px;
+    }
+    .REDES a img
+    {
+        width: auto;
+        height: 20px;
+    }
+    .PI2
+    {
+         margin: 0px 0px 50px 0px;
+         padding: 0px ;
+    }
+    .PI2 h1
+    {
+        font-size: 20px;
+    }
+    .PI2 li
+    {
+    margin-bottom: 50px;
+    text-align: center;
+    }
+
+    .PI3 li
+    {
+    text-align: right;
+    }
 
 }
-
-/*Tablet*/
-/* @media screen and (max-width:768px){
-}
-/*Dispositivo movil*/
-/* @media screen and (max-width:425px){
-}
-
-@media screen and (max-width:375px){
-}
-
-@media screen and (max-width:320px){
-} */
